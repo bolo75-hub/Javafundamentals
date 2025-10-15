@@ -97,7 +97,7 @@ public class Arraytest {
     }
 
     /** Intercambia dos valores en un array si los índices son válidos. */
-    private static void switchValues(int[] arr, int index1, int index2) {
+    static void switchValues(int[] arr, int index1, int index2) {
         if (arr == null) return;
         if (index1 < 0 || index2 < 0) return;
         if (index1 >= arr.length || index2 >= arr.length) return;
